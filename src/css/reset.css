@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Indica que o tamanho agora levará em conta até a borda, ou seja, o width será a soma do conteúdo com a borda e o padding.Facilitando de trabalhar.*/
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+    /* Vai herdar as cores, da tag pai */
+}
